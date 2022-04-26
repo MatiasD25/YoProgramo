@@ -1,0 +1,151 @@
+header{
+	background: rgb(2, 0, 20);
+    height: 60px; 
+    width:100%;
+    margin: 0%;
+}
+
+header .titulo {
+	color:#fffdfd;
+	font-size:20px;
+	line-height:40px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 10px;
+}
+
+header nav {
+	float:right;
+	line-height:20px;
+	background-color: #6cf;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fffdfd;
+	padding:20px 20px;
+	font-size:20px;
+    margin: 0%;
+  
+}
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:5px;
+	
+}
+
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+ }
+
+ footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:43px;  
+    background:#6cf;	
+	margin-top: 0px;
+ }
+ div.pie {
+   padding:6px 5px;
+   text-align:right;
+   }
+
+footer img{
+	height: 25px;
+	width: 25px;
+}
+#medio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+div.cuerpo {
+	padding: 5px 5px;
+	text-align:center;
+	}
+#cuerpo{
+		width: 600px;
+		height: 500px;
+		align-items: center;
+	padding-top: 2px;
+	}
+
+#datos{
+	width: 75%;
+	padding: 20px 140px;
+}
+#formacion{
+	width: 50%;
+	padding: 20px 140px;
+}
+
+#experiencia{
+	width: 50%;
+	padding: 20px 140px;
+}
+
+div{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+	tab-size: 17px;
+}
+#miFoto{
+	float: right;
+	height: 250px;
+	width: 250px;
+	padding: 10px 30px;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100% 100%;
+	padding: 4px 200px;
+	
+}
+
+.grilla1{
+    border: 0px;
+    border-style: solid;
+	height: 300px;
+	margin: 0px;
+}
+.ima_grilla{
+	height: 260px;
+	width:280px;
+}
+h2{
+	margin: 0px;
+	padding: 3px 3px;
+}
+
+
+.grilla2{
+    border: 0px;
+    border-style: solid;
+	height: 200px;
+}
+p{
+	margin: 1px;
+}
+
+.text{
+	padding: 8px;
+	margin: 10px;
+
+}
+#div_salida{
+	margin: 29px;
+	width: 200px;
+	padding: 4 4 4 4px;
+	background-color:#f56f3a; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Declaracion tipo documento HTML5 -->
+<html>
+    <head>
+        <meta charset="UTF-8"  
+        name="author" content="Diego Matias Barrigon"
+        name="email" content="diegomatiasb@gmail.com" 
+        />
+        <link rel="shortcut icon" href="imagen/house.ico">
+        <link rel="stylesheet" href="Style.css">
+        <script src="js.js"></script>
+      
+<title>Ejercicio 1</title>
+<!--Ejercicio 1.
+Crear un formulario que solicite al usuario un número entre 3 y 10.
+La validación deberá hacerse con HTML, no se permite enviar el formulario vacío.
+Escribir una función que tome ese número (que le será enviado desde el formulario) y 
+solicite al usuario que ingrese una cantidad de nombres igual al número ingresado, y las guarde en un ARRAY.
+Finalmente, mostrar por pantalla todos los nombres ingresados.-->
+</script>
+</head>
+    <body>
+        <header>
+            <div class="titulo"> Curso FRONT-END Ed 3</div>
+            <nav>
+                <a href="Index.html">Inicio</a>
+                <a href="personal.html">Datos Personales</a>
+                <a href="blog.html">Blog</a>
+            </nav>    
+        </header>
+        <fieldset>
+        <form name="miform" action="#" method="post">
+        <br>
+            <div id="caja1">
+            <h2> Ingrese un valor entre 3 y 10</h2>         
+            <input type="number" id="numero"name="numero" class="text" value="" min="3" max="10" step="1" required/>       
+            <input type="button" value="Validar" name="Validar" class="text" onclick="Cantidad()">
+            </div>
+        <br>
+            <div id="caja2" style="display:none;">
+           <h2><label id="titulo"></label><br></h2> 
+            <input type="text" id="nombres" name="nombres" class="text" >
+            <input type="button" id="carga" value="carga" name="carga" class="text" onclick="cargar()">
+            </div>
+            
+            <div id="div_salida">
+
+            </div>
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+       <form name="miform2">
+            <div id="caja3">
+                <h2> Seleccione un tipo de Número</h2>     
+            <br>
+            <input type="radio" value="2" name="radio1" >Par
+            <br>
+            <input type="radio" value="1" name="radio1">Impar
+      
+            <br>
+            <input type="button" id="calcula" value="Calcular" name="calcula" class="text" onclick="tipo()">
+            </div>  
+            <div id="div_salida2">
+
+            </div>   
+       </form>       
+    </fieldset>
+
+    <fieldset>
+        <form name="miform3">
+             <div id="caja4">
+                 <h2> Seleccione una Operacion</h2>     
+             <br> 
+             <input type="number" id="valor1" name="valor1"  min="1"class="text"  step="1" required>
+
+             <select name="Op" id="Op">
+                <option value="Suma">Sumar</option>
+                <option value="Resta">Restar</option>
+                <option value="Multiplicacion">Multiplicar</option>
+            </select>
+
+             <input type="number" id="valor2" name="valor2"  min="1" class="text"  step="1" required>        
+             <br>
+             <input type="button" id="cal" value="Calcular" name="cal" class="text" onclick="calculadora()">
+             </div>  
+             <div id="div_salida3">
+ 
+             </div>   
+        </form>
+</fieldset>
+    </body>
+    <footer> 
+        <div class="pie">
+                <a href="https://ar.linkedin.com/"><img src="Imagen/linkedin.png"  /></a>
+                <a href="https://facebook.com/"><img src="Imagen/facebook.png"  /></a>
+                <a href="https://twitter.com/"><img src="Imagen/twitter.PNG"  /></a>
+
+        </div> 
+    </footer>
+</html>
